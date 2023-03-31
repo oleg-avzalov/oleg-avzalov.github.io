@@ -440,19 +440,23 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			</div>
 
 		<!-- Footer -->
-			<footer id="footer">
-				<div class="inner">
-					<ul class="icons">
-						<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-						<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
-						<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-					</ul>
-					<ul class="copyright">
-						<li>&copy; Untitled</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-					</ul>
-				</div>
-			</footer>
+		<footer id="footer">
+			<div class="inner">
+				<ul class="icons">
+					 <li>
+						<a title="LinkedIn Profile" target="_blank" href="https://www.linkedin.com/in/oleg-avzalov-55876a171/"
+							class="icon brands fa-linkedin "><span class="label">LinkedIn</span></a>
+					</li>
+					<li>
+						<a title="Copy email"href="#" onclick="copy()" class="icon solid fa-envelope "><span class="label">Email</span></a>
+					</li>
+					<li>
+						<a title="Download CV"href="cv.pdf" download target="_blank" class="icon solid fa-ambulance "><span
+								class="label">CV</span></a>
+					</li>
+				</ul>
+			</div>
+		</footer>
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
@@ -461,6 +465,16 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
+			<script>
+				$(function () {
+					$(document).tooltip();
+				});
+			</script>
+			<script>
+				async function copy() {
+					await navigator.clipboard.writeText("oleg.avzalov@gmail.com");
+					alert("Email oleg.avzalov@gmail.com copied to clipboard");
+				}
+			</script>
 	</body>
 </html>
