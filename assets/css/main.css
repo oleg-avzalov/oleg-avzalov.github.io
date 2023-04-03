@@ -100,7 +100,7 @@ input, select, textarea {
 	body, input, select, textarea {
 		color: #a2a2a2;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
-		font-size: 16pt;
+		font-size: 12pt;
 		font-weight: 400;
 		line-height: 1.75em;
 	}
@@ -167,7 +167,8 @@ input, select, textarea {
 	}
 
 	h5 {
-		font-size: 0.9em;
+		font-size: 1.1em;
+		font-weight: 600;
 		line-height: 1.5em;
 	}
 
@@ -2131,6 +2132,7 @@ input, select, textarea {
 
 			.image.fit img {
 				width: 100%;
+				max-height: 330px;
 			}
 
 		.image.avatar {
@@ -2596,7 +2598,7 @@ input, select, textarea {
 		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
-		background-size: auto,								150%;
+		background-size: auto;
 		color: rgba(255, 255, 255, 0.5);
 		height: 100%;
 		left: 0;
@@ -2605,6 +2607,7 @@ input, select, textarea {
 		text-align: right;
 		top: 0;
 		width: 25%;
+		
 	}
 
 		#header > * {
@@ -2682,17 +2685,13 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		margin-left: 35%;
+		margin-left: 25%;
 		max-width: 54em;
-		padding: 8em 4em 4em 4em;
-		width: calc(100% - 35%);
+		padding: 4em 4em 4em 4em;
+		width: calc(100% - 25%);
 	}
 
-		#main > section {
-			border-top: solid 2px #efefef;
-			margin: 4em 0 0 0;
-			padding: 4em 0 0 0;
-		}
+
 
 			#main > section:first-child {
 				border-top: 0;
@@ -3219,3 +3218,77 @@ input, select, textarea {
 			}
 
 	}
+
+
+.back-button {
+	width: auto;
+    border: none;
+    min-width: unset;
+	padding: 0;
+}
+
+.tec {
+	height: 60px;
+	margin-block: auto;
+	margin-inline: 5px;
+}
+
+.technologies{
+	display: flex;
+	flex-direction: row;
+}
+
+.underline {
+	border-bottom: 1px solid rgb(177 177 177 / 34%);
+	margin-bottom: 1em;
+}
+
+.noBorder {
+	border: 0;
+}
+.subtitle {
+	font-weight: 800;
+}
+
+.spacedItem{
+	margin-bottom: 25px;
+}
+
+.removeBefore::before {
+	opacity: 0;
+}
+
+.project2:hover {
+	border-color: #d40e0e;
+    color: #d40e0e!important;
+}
+
+.notSpacedItem{
+	margin-bottom: 0px;
+}
+
+.project3:hover {
+	border-color: #6ab6f3;
+    color: #6ab6f3!important;
+}
+
+.project4:hover {
+	border-color: #EC5049;
+    color: #EC5049!important;
+}
+
+.project5:hover {
+	border-color: #08abb1;
+    color: #08abb1!important;
+}
+
+.skills {
+	height: 120px;
+	margin-block: 50px;
+	margin-inline: 20px;
+}
+
+.flex-style {
+	display: flex;
+	width: 100%;
+}
