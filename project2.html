@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Олег Авзалов</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="manifest" href="images/site.webmanifest">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+
+<body class="is-preload">
+    <header id="header" style="
+                background-size: cover;
+                background-image: url('images/overlay.png'),
+                    url('images/projects/2_blur.png');
+            ">
+        <div class="inner">
+            <a href="#" class="image avatar"><img src="images/projects/2.png" alt="" /></a>
+            <h1>
+                <strong>
+                    Анализ клиентской базы </strong>
+            </h1>
+            <a href="#one" style="color:#d8e0ee" class="noBorder project5">Цель</a><br />
+            <a href="#two" style="color:#d8e0ee" class="noBorder project5">Основные вопросы</a><br />
+            <a href="#three" style="color:#d8e0ee" class="noBorder project5">Отчеты</a><br />
+            <a href="#six" style="color:#d8e0ee" class="noBorder project5">Используемые инструменты</a><br />
+        </div>
+    </header>
+    <!-- Main -->
+    <div id="main" style="max-width: 70em;">
+        <a href="portfolio.html" class="button big icon solid fa-arrow-left project5" style="margin-bottom: 30px;"> Назад к портфолио </a>
+        <section id="one">
+            <header class="major underline">
+                <h2 style="margin-bottom: 3px">Цель</h2>
+            </header>
+            <p>
+                Цель проекта: проанализировать новых и действующих клиентов, найти точки роста прибыли. Дополнительно проанализировать e-mail рассылки и посещаемость сайта, чтобы эффективнее таргетировать рекламу.
+            </p>
+        </section>
+
+        <section id="two">
+            <header class="major underline">
+                <h2 style="margin-bottom: 3px">Основные вопросы</h2>
+            </header>
+            <ol>
+                <li> Оценить общее число заражений и смертей.</li>
+
+                <li>
+                    Оценить динамику по годам/месяцам.
+                </li>
+
+                <li>
+                    Наглядно увидеть, люди из каких стран больше пострадали от вируса.
+                </li>
+            </ol>
+        </section>
+        <section id="three" style="margin-bottom: 30px;">
+            <header class="major underline">
+                <h2 style="margin-bottom: 3px">
+                    Отчет
+                </h2>
+            </header>
+            <i>
+            </i>
+            <p></p>
+            <h5><i>Этот отчет интерактивный</i></h5>
+            <iframe title="Report Section" width="1024" height="612" src="https://app.powerbi.com/view?r=eyJrIjoiN2E3ZGNhZGItNmVjYy00YTFmLTllODAtOGUyODI2MDczZWM1IiwidCI6IjA2NmFlMjUxLTVjMGItNDE4Mi1hOGUyLTEzMjU3NmU0ODZhOSIsImMiOjl9" frameborder="0" allowFullScreen="true"></iframe>
+            <script
+                type='text/javascript'>                    var divElement = document.getElementById('viz1678808866235'); var vizElement = divElement.getElementsByTagName('object')[0]; if (divElement.offsetWidth > 800) { vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px'; } else if (divElement.offsetWidth > 500) { vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px'; } else { vizElement.style.width = '100%'; vizElement.style.height = '1527px'; } var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+            <h5 style="margin-top: 25px;"><i>
+                Чтобы детальнее посмотреть информацию по определенным продуктам, Вы можете воспользоваться фильтрами. Просто выберите конкретные продукты,
+                которые Вас интересует и показатели обновятся автоматически.
+                </i></h5>
+        </section>
+        
+        
+        <!-- One -->
+        <section id="six">
+            <header class="major underline">
+                <h2 style="margin-bottom: 3px">Используемые инструменты</h2>
+            </header>
+            <div class="technologies">
+                <img class="tec" title="Excel" src="images/tec/excelSVG.svg" />
+                <img class="tec" style="height: 47px" title="Power BI" src="images/tec/PowerBiColorsSVG.svg" />
+                <img class="tec" style="height: 47px" title="SQL" src="images/tec/sql-database-generic.svg" />
+                <img class="tec" style="height: 47px" title="Topvisor" src="tv.svg" />
+            </div>
+        </section>
+    </div>
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="inner">
+            <ul class="icons">
+                 <li>
+                    <a title="LinkedIn Profile" target="_blank" href="https://www.linkedin.com/in/oleg-avzalov-55876a171/"
+                        class="icon brands fa-linkedin "><span class="label">LinkedIn</span></a>
+                </li>
+                <li>
+                    <a title="Copy email"href="#" onclick="copy()" class="icon solid fa-envelope "><span class="label">Email</span></a>
+                </li>
+                <li>
+                    <a title="Download CV"href="cv.pdf" download target="_blank" class="icon solid fa-file-alt "><span
+                            class="label">CV</span></a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.poptrox.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script>
+        $(function () {
+            $(document).tooltip();
+        });
+    </script>
+    <script src="assets/js/main.js"></script>
+    <script>
+        function showmoredetails() {
+            const hiddenDiv = document.getElementById("hiddenDiv");
+            if (hiddenDiv.style.display === "none")
+                hiddenDiv.style.display = "block";
+            else hiddenDiv.style.display = "none";
+        }
+    </script>
+    <script>
+        async function copy() {
+            await navigator.clipboard.writeText("oleg.avzalov@gmail.com");
+            alert("Email oleg.avzalov@gmail.com copied to clipboard");
+        }
+    </script>
+</body>
+
+</html>
