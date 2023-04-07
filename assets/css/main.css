@@ -3282,6 +3282,21 @@ input, select, textarea {
     color: #08abb1!important;
 }
 
+.project0:hover {
+	border-color: #08abb1;
+    color: #08abb1!important;
+}
+
+.index:hover {
+	border-color: #08abb1;
+    color: #08abb1!important;
+}
+
+.portfolio:hover {
+	border-color: #08abb1;
+    color: #08abb1!important;
+}
+
 .skills {
 	height: 120px;
 	margin-block: 50px;
